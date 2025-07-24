@@ -1,0 +1,23 @@
+.navbar {
+  position: relative;
+  top: 15px;           /* Distance from top */
+  margin: 0 auto;      /* Center it if width < 100vw */
+  width: 92vw;
+  height: 15vh;
+  border-radius: 10px;
+  z-index: 1000;       /* Make sure it stays above other content */
+  background: linear-gradient(to bottom, #4da6ff, #e0f7ff); /* optional */
+}
+
+.navbar-gradient {
+  background: linear-gradient(to bottom, #d4deee, #e0f7ff);
+}
+
+.container-fluid button{
+    color: white;
+    background-color: #0c97d8;
+    border: none;
+    border-radius: 20px;
+    width: 95px;
+    padding: 10px;
+}

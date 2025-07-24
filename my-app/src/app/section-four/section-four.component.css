@@ -1,0 +1,34 @@
+.section2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 90px;
+    margin-left: 65px;
+    background: linear-gradient(to bottom, #d4deee, #e0f7ff);
+   box-shadow: 0 0 10px rgb(159, 222, 248);
+    width: 92vw;
+    border-radius: 10px;
+    height: 60vh;
+}
+.sub1 > p::before{
+    content: "Marktbedarf & Timing";
+    color: #0c97d8;
+
+}
+
+.sub1{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.sub1 > p{
+    font-size: 40px;
+}
+
+.section2 >.sub2{
+    position: relative;
+    top: 40px;
+    left: 100px;
+
+}
+
